@@ -1,3 +1,4 @@
+
 ## ui.R ##
 sidebar <- dashboardSidebar(
   sidebarMenu(
@@ -13,7 +14,7 @@ body <- dashboardBody(
     ),
 
     tabItem(tabName = "Table",
-            h2("Table"),DataTableUI(id = "id_2")
+            h2("Table"),DataTableWideUI(id = "id_2")
     )
   )
 )

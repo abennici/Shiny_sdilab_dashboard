@@ -11,7 +11,7 @@ library("shinydashboard")
 
 #load module functions
 source("https://raw.githubusercontent.com/abennici/ShinySdilabpopup/master/modules/QueryInfo.R")
-source("https://raw.githubusercontent.com/abennici/ShinySdilabpopup/master/modules/DataTable.R")
+source("modules/DataTableWide.R")
 source("https://raw.githubusercontent.com/abennici/ShinySdilabpopup/master/functions.R")
 source("ui.R")
 source("server.R")
